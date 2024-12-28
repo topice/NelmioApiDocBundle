@@ -89,18 +89,18 @@ class GetNelmioAssetTest extends WebTestCase
     {
         yield 'bundled image' => [
             AssetsMode::BUNDLE,
-            'logo.png',
-            '/bundles/nelmioapidoc/logo.png',
+            'logo.svg',
+            '/bundles/nelmioapidoc/logo.svg',
         ];
         yield 'cdn image' => [
             AssetsMode::CDN,
-            'logo.png',
-            self::CDN_DIR.'/logo.png',
+            'logo.svg',
+            self::CDN_DIR.'/logo.svg',
         ];
         yield 'offline image fallbacks to cdn' => [
             AssetsMode::OFFLINE,
-            'logo.png',
-            self::CDN_DIR.'/logo.png',
+            'logo.svg',
+            self::CDN_DIR.'/logo.svg',
         ];
     }
 }
