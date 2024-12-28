@@ -1,5 +1,5 @@
 {
-  "description": "Script utils for nelmio/api-doc-bundle UI",
+  "description": "Script utils for topice/api-doc-bundle UI",
   "license": "MIT",
   "dependencies": {
     "redoc": "2.2.0",

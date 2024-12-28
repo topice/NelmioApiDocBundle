@@ -29,7 +29,7 @@ class ObjectPropertyDescriber implements PropertyDescriberInterface, ModelRegist
     {
         if (null === $schema) {
             trigger_deprecation(
-                'nelmio/api-doc-bundle',
+                'topice/api-doc-bundle',
                 '4.15.0',
                 '"%s()" will have a new "OA\Schema $schema" argument in a future version. Not defining it or passing null is deprecated',
                 __METHOD__
@@ -38,7 +38,7 @@ class ObjectPropertyDescriber implements PropertyDescriberInterface, ModelRegist
 
         if (null !== $groups) {
             trigger_deprecation(
-                'nelmio/api-doc-bundle',
+                'topice/api-doc-bundle',
                 '4.17.0',
                 'Using the $groups parameter of "%s()" is deprecated and will be removed in a future version. Pass groups via $context[\'groups\']',
                 __METHOD__

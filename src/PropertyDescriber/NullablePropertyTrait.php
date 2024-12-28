@@ -24,7 +24,7 @@ trait NullablePropertyTrait
     protected function setNullableProperty(Type $type, OA\Schema $property, ?OA\Schema $schema, array $context = []): void
     {
         trigger_deprecation(
-            'nelmio/api-doc-bundle',
+            'topice/api-doc-bundle',
             '4.17.0',
             'Use %s instead',
             NullablePropertyDescriber::class,

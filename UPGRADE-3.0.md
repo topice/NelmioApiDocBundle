@@ -46,7 +46,7 @@ class SwaggerDocblockConvertCommand extends ContainerAwareCommand
 
         if (!$this->getContainer()->has('nelmio_api_doc.extractor.api_doc_extractor')) {
             if (!$this->getContainer()->has('nelmio_api_doc.controller.swagger_ui')) {
-                throw new \RuntimeException('NelmioApiDocBundle is not installed. Please run `composer require nelmio/api-doc-bundle`.');
+                throw new \RuntimeException('NelmioApiDocBundle is not installed. Please run `composer require topice/api-doc-bundle`.');
             } else {
                 throw new \RuntimeException('This command only works with NelmioApiDocBundle 2.x installed while version 3.x is currently installed. Please downgrade to 2.x to execute this command and bump your constraint only after its execution.');                      
             }
@@ -285,13 +285,13 @@ Step 3: Update your config
 Step 4: Update the bundle
 -------------------------
 
-Change the constraint of ``nelmio/api-doc-bundle`` in your ``composer.json`` file
+Change the constraint of ``topice/api-doc-bundle`` in your ``composer.json`` file
 to ``^3.0``:
 
 ```json
 {
     "require": {
-        "nelmio/api-doc-bundle": "^3.0"
+        "topice/api-doc-bundle": "^3.0"
     }
 }
 ```

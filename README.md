@@ -2,9 +2,9 @@ NelmioApiDocBundle
 ==================
 
 [![Build Status](https://img.shields.io/github/actions/workflow/status/nelmio/NelmioApiDocBundle/continuous-integration.yml?branch=master&style=flat-square)](https://github.com/nelmio/NelmioApiDocBundle/actions?query=workflow:CI) 
-[![Total Downloads](https://poser.pugx.org/nelmio/api-doc-bundle/downloads)](https://packagist.org/packages/nelmio/api-doc-bundle)
+[![Total Downloads](https://poser.pugx.org/topice/api-doc-bundle/downloads)](https://packagist.org/packages/topice/api-doc-bundle)
 [![Latest Stable
-Version](https://poser.pugx.org/nelmio/api-doc-bundle/v/stable)](https://packagist.org/packages/nelmio/api-doc-bundle)
+Version](https://poser.pugx.org/topice/api-doc-bundle/v/stable)](https://packagist.org/packages/topice/api-doc-bundle)
 
 The **NelmioApiDocBundle** bundle allows you to generate a decent documentation
 for your APIs.
@@ -24,7 +24,7 @@ Version 4.0 brings OpenAPI 3.0 support. If you want to stick to Swagger 2.0, you
 Open a command console, enter your project directory and execute the following command to download the latest version of this bundle:
 
 ```
-composer require nelmio/api-doc-bundle
+composer require topice/api-doc-bundle
 ```
 
 ## Documentation

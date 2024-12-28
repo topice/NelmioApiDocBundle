@@ -33,7 +33,7 @@ Open a command console, enter your project directory and execute the following c
 
 .. code-block:: bash
 
-    $ composer require nelmio/api-doc-bundle
+    $ composer require topice/api-doc-bundle
 
 By default, only routes under ``/api`` are documented. Update the regexp at ``nelmio_api_doc.areas.path_patterns`` in ``config/packages/nelmio_api_doc.yaml`` to change this policy.
 
